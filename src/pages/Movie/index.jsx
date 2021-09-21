@@ -31,6 +31,7 @@ const Movie = (props) => {
       setLoading(false);
       setItemMovie(dataMovie);
     }
+    // eslint-disable-next-line
   }, []);
 
   // -- component didupdate
@@ -52,7 +53,10 @@ const Movie = (props) => {
     setItemMovie(dataFilter);
   };
 
-  const debouncedChangeHandler = useMemo(() => debounce(handleSearch, 350), []);
+  const debouncedChangeHandler = useMemo(
+    () => debounce(handleSearch, 350),
+    // eslint-disable-next-line
+  []);
 
   return (
     <div>

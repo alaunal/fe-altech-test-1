@@ -20,6 +20,7 @@ const Home = (props) => {
     } else {
       setLoading(!loading);
     }
+    // eslint-disable-next-line
   }, []);
 
   // -- component didupdate
@@ -27,6 +28,7 @@ const Home = (props) => {
     if(rawFeed.length < 1) {
       setLoading(!loading);
     }
+    // eslint-disable-next-line
   }, [rawFeed]);
 
   return (

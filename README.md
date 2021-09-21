@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# FE ALTECH TEST - VIDEO STREAMING
+this is a simple project about a list of streaming video movies & series lists. This web application uses react libraries and several supporting tools. [DEMO PAGE](https://create-react-app.dev/ "https://create-react-app.dev/")
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tools
+The main features of the aplication include:
 
-## Available Scripts
+1. **React starter kit**
+	 - [CRA](https://create-react-app.dev/ "https://create-react-app.dev/") (create-react-app)
+2. **Routing and navigation**
+	-   [React Router](https://github.com/ReactTraining/react-router)  a tool to manage root url pages
+3. **Flux architecture**
+	-   [Redux](https://redux.js.org/docs/introduction/) a Predictable State Container for JS Apps
+	-   Redux Wrapper:  [Rematch](https://github.com/rematch/rematch) is Redux best practices without the boilerplate
+4. **UI Toolkit & Styling**
+	- [Twin.macro](https://github.com/ben-rogerson/twin.macro "https://github.com/ben-rogerson/twin.macro"), Twin blends the magic of Tailwind with the flexibility of css-in-js.
+	- [Styled-components](https://styled-components.com/ "https://styled-components.com/"), Visual primitives for the component age
 
-In the project directory, you can run:
+## Requirements
 
-### `yarn start`
+This should be installed on your computer in order to get up and running:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **[Node.js](https://nodejs.org/en/)** Required node version is >= `10.0`
+- **[npm](https://www.npmjs.com/)** Version `6.0.*`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Get Started
+let's start using the React Starter project by following the steps below.
 
-### `yarn test`
+### Setup & installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Clone Repo** Make sure you have clone repository.
+	```
+	https://github.com/alaunal/fe-altech-test-1.git
+	```
+2. **Install dependencies**
+	```
+	npm install
+	```

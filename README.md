@@ -1,5 +1,5 @@
 # FE ALTECH TEST - VIDEO STREAMING
-this is a simple project about a list of streaming video movies & series lists. This web application uses react libraries and several supporting tools. [DEMO PAGE](https://create-react-app.dev/ "https://create-react-app.dev/")
+this is a simple project about a list of streaming video movies & series lists. This web application uses react libraries and several supporting tools. [DEMO PAGE](https://fe-demo-streaming.netlify.app/ "https://fe-demo-streaming.netlify.app/")
 
 ## Tools
 The main features of the aplication include:
